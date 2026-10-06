@@ -4,7 +4,7 @@
   padding-top: 20px;
 }
 
-.logo_image {
+.logo__image {
   display: block;
   width: 188px;
   height: auto;
@@ -15,7 +15,7 @@
     padding-top: 30px;
   }
 
-  .logo_image {
+  .logo__image {
     width: 254px;
   }
 }
