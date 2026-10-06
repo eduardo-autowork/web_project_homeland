@@ -1,17 +1,17 @@
-.main {
+.content {
   width: 100%;
   max-width: 984px;
   margin-top: 64px;
 }
 
 @media (min-width: 768px) {
-  .main {
+  .content {
     margin-top: 90px;
   }
 }
 
 @media (min-width: 1280px) {
-  .main {
+  .content {
     margin-top: 92px;
   }
 }

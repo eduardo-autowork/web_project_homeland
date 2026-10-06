@@ -1,10 +1,10 @@
-.content {
+.section {
   display: flex;
   flex-direction: column;
   padding: 0 16px;
 }
 
-.content__title {
+.section__title {
   margin: 0;
   max-width: 830px;
   font-size: 32px;
@@ -12,14 +12,14 @@
   font-weight: 900;
 }
 
-.content__quote {
+.section__quote {
   margin: 40px 0 0;
   max-width: 738px;
   font-size: 24px;
   line-height: 30px;
 }
 
-.content__author {
+.section__author {
   margin: 10px 0 0;
   max-width: 738px;
   font-size: 24px;
@@ -27,7 +27,7 @@
   text-align: right;
 }
 
-.content__text {
+.section__text {
   margin: 32px 0 0;
   max-width: 722px;
   font-size: 16px;
@@ -35,40 +35,40 @@
 }
 
 @media (min-width: 768px) {
-  .content {
+  .section {
     padding: 0 24px;
   }
 
-  .content__title {
+  .section__title {
     font-size: 45px;
     line-height: 49px;
   }
 
-  .content__quote {
+  .section__quote {
     margin-top: 50px;
     line-height: 34px;
   }
 
-  .content__author {
+  .section__author {
     margin-top: 0;
   }
 }
 
 @media (min-width: 1280px) {
-  .content {
+  .section {
     padding: 0;
   }
 
-  .content__title {
+  .section__title {
     font-size: 54px;
     line-height: 58px;
   }
 
-  .content__quote {
+  .section__quote {
     margin-top: 40px;
   }
 
-  .content__author {
+  .section__author {
     margin-top: 10px;
   }
 }
