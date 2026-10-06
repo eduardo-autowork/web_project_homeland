@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: auto; /* mantém o rodapé no fim da tela se houver pouco conteúdo */
+  padding: 64px 0 24px;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding-top: 88px;
+  }
+
+  .footer__copyright {
+    line-height: 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer {
+    padding-top: 92px;
+  }
+}

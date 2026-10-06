@@ -1,0 +1,27 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.logo_image {
+  display: block;
+  width: 188px;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    padding-top: 30px;
+  }
+
+  .logo_image {
+    width: 254px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .logo {
+    padding-top: 34px;
+  }
+}
